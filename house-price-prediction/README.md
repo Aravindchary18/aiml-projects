@@ -1,6 +1,6 @@
 House Price Prediction
 
-Predict house prices using features such as size (sqft), number of rooms, and age with a Linear Regression model. This project demonstrates multi-feature regression, model training, and prediction pipelines using Python, NumPy, and scikit-learn.
+-Predict house prices using features such as size (sqft), number of rooms, and age with a Linear Regression model. This project demonstrates multi-feature regression, model training, and prediction pipelines using Python, NumPy, and scikit-learn.
 
 Objective:
 Estimate the price of a house based on key features and make predictions for new properties.
