@@ -38,10 +38,11 @@ pip install numpy scikit-learn
 python student_score_prediction.py
 ```
 3. Example prediction:
+```python
 import numpy as np
 
 # Predict score for a student who studied 6 hours
-```
+
 new_student = np.array([[6]])
 predicted_score = model.predict(new_student)
 print(predicted_score)
@@ -64,11 +65,13 @@ Repository Structure:
 student-score-prediction/
 └── student_score_prediction.py
 
-Technologies & Libraries
-Python 3.x – Programming language
-NumPy – Efficient array handling and numeric operations
-scikit-learn – Linear Regression model
-Notes
-This project demonstrates prediction for new inputs using the trained model.
-Feature (X) and target (y) are properly mapped, and the code is well-commented.
-The project is professional and internship-ready, suitable for showcasing practical regression skills.
+Technologies & Libraries:
+
+-Python 3.x – Programming language
+-NumPy – Efficient array handling and numeric operations
+-scikit-learn – Linear Regression model
+
+Notes:
+-This project demonstrates prediction for new inputs using the trained model.
+-Feature (X) and target (y) are properly mapped, and the code is well-commented.
+-The project is professional and internship-ready, suitable for showcasing practical regression skills.
