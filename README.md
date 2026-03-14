@@ -44,19 +44,7 @@ aiml-projects/
 | Data Processing | NumPy
 | Machine Learning | scikit-learn (LinearRegression, DecisionTreeClassifier) |
 
-## 📊 Project Metrics
-- **Total Projects**: 3
-- **Models Deployed**: 3 (2 Regression, 1 Classification)
-- **Accuracy Range**: 85-92% across all models
-- **Code Quality**: 100% commented, production-ready
-
-## 🎯 Internship-Ready Features
-- ✅ **End-to-end ML pipelines** (data → model → prediction)
-- ✅ **Model performance metrics** (MAE, R², Accuracy)
-- ✅ **Production-grade code** with input validation
-- ✅ **Resume-optimized documentation**
-- ✅ **New data prediction capability**
-
+**3 Working ML Models:** House Price Prediction, Student Score Prediction, Titanic Survival
 ---
 
 **Built with ❤️ for AIML internship applications** | **March 2026**
