@@ -2,7 +2,7 @@ import streamlit as st
 import joblib 
 import numpy as np
 
-model = joblib.load("Titanic Survival Prediction/model.pkl")
+model = joblib.load("titanic-survival-prediction/model.pkl")
 
 st.title("Titanic Survival Prediction")
 
