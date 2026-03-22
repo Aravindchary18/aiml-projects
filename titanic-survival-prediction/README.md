@@ -9,6 +9,7 @@ A professional end-to-end Machine Learning project that predicts passenger survi
 🔗
 https://titanic-survival-prediction-aravind.streamlit.app
 
+---
 
 ## 🔍 Project Objective
 
