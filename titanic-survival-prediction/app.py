@@ -27,7 +27,8 @@ Sex=st.selectbox("Sex",["Male","Female"])
 Age=st.slider("Age",0,100,20)
 
 # Fare input as numeric field
-Fare=st.number_input("Fare",value=50)
+Fare=st.number_input("Fare",
+                     value=50,min_value=0,max_value=500)
 
 # Convert categorical gender into numeric (model input format)
 Sex = 0 if Sex=="Male" else 1
