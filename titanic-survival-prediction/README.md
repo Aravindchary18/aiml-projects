@@ -1,76 +1,111 @@
-# Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction — Machine Learning Web App
 
-Predict whether a passenger survived the Titanic disaster using a **Decision Tree Classifier**. This project demonstrates **classification**, handling categorical and numerical features, and prediction pipelines using **Python, NumPy, and scikit-learn**.
-
----
-
-## Objective
-Estimate passenger survival based on features like gender, age, and passenger class, and make predictions for new passengers.
+A professional end-to-end Machine Learning project that predicts passenger survival on the Titanic using a trained classification model and a Streamlit web interface. This project demonstrates data preprocessing, model training using scikit-learn, model persistence with joblib, and deployment-ready application development.
 
 ---
 
-## Model
-- **Type:** Decision Tree Classifier  
-- **Library:** scikit-learn  
-- **Input Features (`X`):** Gender, Age, Passenger Class  
-- **Target (`y`):** Survived (0 = No, 1 = Yes)  
-- **Output:** Prediction of survival for a given passenger  
+## 🔍 Project Objective
+
+The goal of this project is to build a machine learning model that can predict whether a passenger would survive the Titanic disaster based on key input features such as passenger class, gender, age, and fare. The project also focuses on deploying the model as an interactive web application for real-time inference.
 
 ---
 
-## Key Skills Demonstrated
-- Classification modeling with decision trees  
-- Handling categorical and numerical features  
-- Mapping features (`X`) to target (`y`)  
-- Model training with `.fit()` and predictions with `.predict()`  
-- Clean, commented, production-ready code  
+## 🧠 Machine Learning Approach
+
+- Data preprocessing and feature engineering were performed using scikit-learn utilities  
+- Multiple machine learning techniques from scikit-learn were explored during model development  
+- A classification model was trained on Titanic dataset features  
+- The trained model was serialized using joblib and loaded into the Streamlit app for inference  
 
 ---
 
-## Usage
+## 🎯 Features Used for Prediction
 
-1. **Install dependencies:**
-```bash
-pip install numpy scikit-learn
-```
+- Passenger Class (Pclass)  
+- Sex (Gender)  
+- Age  
+- Fare  
 
-2. Run the project:
-```bash
-   python titanic_survival_prediction.py
-```
-3. Example prediction:
-```
-import numpy as np
+---
 
-# Predict survival for a new passenger: Female, Age 22, Class 3
-new_passenger = np.array([[1, 22, 3]])  # 1 = Female, 0 = Male
-predicted_survival = model.predict(new_passenger)
-print(predicted_survival)  # Output: 0 or 1 
-```
-Sample Data:
-```python
-# Features: Gender (1=Female,0=Male), Age, Passenger Class
-X = [
-    [1, 22, 3],
-    [0, 35, 1],
-    [1, 28, 2],
-    [0, 19, 3]
-]
+## 🖥️ Application Features
 
-# Target: Survived (0=No, 1=Yes)
-y = [1, 0, 1, 0]
-```
+- Interactive web interface built with Streamlit  
+- Real-time predictions based on user input  
+- Simple UI with dropdowns, sliders, and numeric inputs  
+- Instant classification output: Survived / Did Not Survive  
 
-Repository Structure:
-titanic-survival-prediction/
-└── titanic_survival_prediction.py
+---
 
-Technologies & Libraries:
--Python 3.x – Programming language
--NumPy – Efficient array handling and numeric operations
--scikit-learn – Decision Tree Classifier
+## 🛠️ Tech Stack
 
-Notes:
--This project demonstrates prediction for new passengers using the trained model.
--Feature (X) and target (y) are properly mapped, and the code is well-commented.
--The project is professional and internship-ready, suitable for showcasing practical classification skills.
+- Python  
+- Streamlit  
+- scikit-learn  
+- NumPy  
+- joblib  
+
+---
+
+## 📂 Project Structure
+
+- app.py → Streamlit application for user interaction and prediction  
+- model.pkl → Pre-trained machine learning model  
+- requirements.txt → Dependencies required to run the project  
+- README.md → Project documentation  
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+
+git clone https://github.com/Aravindchary18/AIML-Projects-Portfolio.git
+
+2. Navigate to the project directory:
+
+cd AIML-Projects-Portfolio
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+4. Run the application:
+
+streamlit run app.py
+
+---
+
+## 🌐 Deployment
+
+This application can be deployed using Streamlit Community Cloud by connecting this GitHub repository and selecting `app.py` as the main file.
+
+---
+
+## 📊 Output
+
+- 1 → Survived  
+- 0 → Did Not Survive  
+
+---
+
+## 👨‍💻 Author
+
+- Name: Aravind Nannabattuni  
+- GitHub: https://github.com/Aravindchary18  
+
+---
+
+## 📌 Key Highlights
+
+- End-to-end machine learning pipeline  
+- Real-time prediction web application  
+- Integration of trained ML model with a UI  
+- Clean and production-style project structure  
+- Suitable for portfolio and recruiter showcase  
+
+---
+
+## ⚠️ Disclaimer
+
+This project is developed for educational and portfolio purposes. The predictions are based on historical data and should not be considered as real-world survival predictions.
