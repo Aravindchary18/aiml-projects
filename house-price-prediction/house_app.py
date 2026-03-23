@@ -17,7 +17,8 @@ Garage=st.number_input("Garage Cars",min_value=0,max_value=10)
 
 if st.button("Predict"):
     input_data=np.array([[Area,Bedroom,Year,Quality,Bathrooms,Garage]])
-    prediction=model.predict(input_data)
-    st.success(f"Predicted Price:  {prediction[0]:.2f}")
+    prediction=model.predict(input_data)[0]
+    prediction=max(0, prediction)
+    st.success(f"Predicted Price:  {prediction:.2f}")
 
 
