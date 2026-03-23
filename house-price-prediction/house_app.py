@@ -8,9 +8,9 @@ model = joblib.load(os.path.join(BASE_DIR, "house_model.pkl"))
 
 st.title("🏡House Price Prediction🏘️")
 
-Area=st.number_input("Area(GiLivArea)",min_value=0,max_value=10000)
+Area=st.number_input("Area(GiLivArea)",min_value=1,max_value=10000)
 Bedroom=st.number_input("Bedrooms(BedroomAbrGr)",min_value=1,max_value=7,step=1)
-Year=st.number_input("Year Built",min_value=1000,max_value=2025)
+Year=st.number_input("Year Built",min_value=1800,max_value=2025)
 Quality=st.number_input("Overall Quality(1-10)",min_value=1,max_value=10)
 Bathrooms=st.number_input("Full Bathrooms",min_value=0,max_value=10)
 Garage=st.number_input("Garage Cars",min_value=0,max_value=10)
