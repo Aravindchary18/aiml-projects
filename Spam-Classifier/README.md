@@ -70,11 +70,14 @@ Confusion Matrix:
 
 spam-classifier/
 ├── README.md  
-├── spam_app.py  
 ├── SMS_SPAM_CLASSIFIER.py  
+├── spam_app.py  
 ├── model.pkl  
 ├── vectorizer.pkl  
+├── spam.csv  
 ├── requirements.txt  
+
+---
 
 ---
 
