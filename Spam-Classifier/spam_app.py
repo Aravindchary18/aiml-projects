@@ -1,8 +1,10 @@
+# Import required libraries
 import streamlit as st
 import pickle 
 
-mod=pickle.load(open("model.pkl","rb"))
-vec=pickle.load(open("vectorizer.pkl","rb"))
+
+mod = pickle.load(open("Spam-Classifier/model.pkl", "rb"))
+vec = pickle.load(open("Spam-Classifier/vectorizer.pkl", "rb"))
 
 st.title("✉️ Spam Message Classifier 📤")
 
